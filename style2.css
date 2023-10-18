@@ -1,0 +1,131 @@
+
+.gradient-background {
+	background: linear-gradient(-45deg, #12486B, #419197, #78D6C6, #F5FCCD);
+	background-size: 400% 400%;
+	animation: gradient 13s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.gradient-background2 {
+	background: linear-gradient(-45deg, #6499E9, #9EDDFF, #A6F6FF, #BEFFF7);
+	background-size: 400% 400%;
+	animation: gradient2 13s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient2 {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.header {
+	display: grid;
+	justify-content: center;
+	height: 30vh;
+	align-content: center;
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+h1 {
+    font-family: "cardo";
+    letter-spacing:  5px;
+}
+
+#name {
+    font-size: 40px;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+
+
+.bio.container {
+	display: flex;
+	justify-content: center;
+	letter-spacing: 3px;
+}
+
+
+p {
+	font-size: 16px;
+    font-weight: 300;
+	letter-spacing: 1px;
+}
+
+li {
+	font-size: 16px;
+    font-weight: 300;
+}
+.sumedu.container{
+	display: flex;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	gap:5px;
+}
+.card.p-5 {
+	flex: 1;
+	border: 0px;
+	padding-right: 30px;
+}
+
+.expSkill.container{
+	display: flex;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	gap:5px;
+	justify-content: center;
+	max-width: 1000px;
+}
+
+.exp.card.p-5 {
+	flex: 3;
+}
+.edu.card.p-5 {
+	flex: 1;
+}
+.newJob.gradient-background3 {
+	border-radius: 5px;
+	padding: 6px;
+}
+
+.gradient-background3 {
+	background: linear-gradient(-45deg, #6499E9, #9EDDFF, #A6F6FF, #BEFFF7);
+	background-size: 400% 400%;
+	animation: gradient3 13s ease infinite;
+	height: 100%;
+}
+
+@keyframes gradient3 {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

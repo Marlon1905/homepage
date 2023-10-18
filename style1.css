@@ -1,0 +1,43 @@
+.px-4.py-5.my-5.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-family: "cardo";
+    letter-spacing:  5px;
+    font-weight: 500;
+	
+}
+.btn {
+letter-spacing: 2px;
+font-weight: 100;
+}
+
+.gradient-background {
+	background: linear-gradient(-45deg, #12486B, #419197, #78D6C6, #F5FCCD);
+	background-size: 400% 400%;
+	animation: gradient 9s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.construction {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
